@@ -1,0 +1,90 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.portfolio {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.profile-info img {
+  width: 200px; /* Defina o tamanho desejado para as imagens */
+  height: 150px;
+  margin: 0 5px; /* Adiciona um espaçamento entre as imagens */
+  border-radius: 20%;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #333;
+}
+
+.social-icons img {
+  width: 30px; /* Defina o tamanho desejado para as imagens */
+  height: 30px;
+  margin: 0 5px; /* Adiciona um espaçamento entre as imagens */
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 800px; /* Ajuste conforme necessário */
+  margin: 0 auto;
+}
+
+.projects-link {
+  flex: 0 0 calc(45% - 20px); /* Alteração aqui */
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.projects-link:hover {
+  background-color: #f0f0f0;
+}
+
+.projects-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.profile-image {
+  max-width: 300px; /* ou o tamanho desejado */
+  border-radius: 8px;
+}
